@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.header{
+    display:flex;
+    justify-content:space-around;
+    background-color: turquoise;
+    color: white;
+}
+#im1{
+    flex-direction: column;
+    position: relative;
+    align-items: flex-start;
+    left:3px;
+    top:3px;
+    width:300px;
+    height:350px;
+    border-radius:20px 20px 20px 20px;
+}
+H1{
+    flex-direction: column ; 
+    height:100px;
+    position:relative;
+    top:80px;  
+}
+.address{
+    display:inline-block;
+    font-size: x-large;
+    justify-content: center;
+    align-items:center;
+}
+#s1{
+    position:relative;
+    top:150px;
+}
+/*mid-part*/
+.mid-part{
+    display:grid;
+    grid-template-columns: 25% 75%;
+    grid-template-rows: 10% 50% 25% 20%;
+}
+.portfolio{
+    border-style: solid;
+}
+.education{
+    grid-column-start:1;
+    grid-column-end:2;
+    grid-row-start: row1-start;
+    grid-row-end: 2;
+    border-style: solid;
+}
+.intern{
+    grid-column-start:1;
+    grid-column-end:2;
+    grid-row-start: row2-start;
+    grid-row-end: 3;
+    border-style: solid;
+}
+.pos{
+    grid-column-start:1;
+    grid-column-end:2;
+    grid-row-start: row3-start;
+    grid-row-end: 4;
+    border-style: solid;
+}
+.intro{
+    grid-column-start:2;
+    grid-column-end:2;
+    /* grid-row-start: row-start;
+    grid-row-end: 2; */
+    border-style: solid;
+}
+.i1 p:first-child{
+    text-align: center;
+}
+.train{
+    grid-column-start:2;
+    grid-column-end:2;
+    /* grid-row-start: row-start;
+    grid-row-end: 2; */
+    border-style: solid;
+
+}
+.train p:first-child{
+    text-align: center;
+}
+.train ol{
+    position: relative;
+    left:80px;
+}
+.pro{
+    grid-column-start:2;
+    grid-column-end:2;
+    /* grid-row-start: row-start;
+    grid-row-end: 2; */
+    border-style: solid;
+}
+.pro p:first-child{
+    text-align: center;
+}
+.pro ol{
+    position:relative;
+    left:80px;
+}
+.skill{
+    grid-column-start:2;
+    grid-column-end:2;
+    /* grid-row-start: row-start;
+    grid-row-end: 2; */
+    border-style: solid;
+}
+.skill p:first-child{
+    text-align: center;
+}
+.skill ul{
+    position:relative;
+    left:80px;
+}
